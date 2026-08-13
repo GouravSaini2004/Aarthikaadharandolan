@@ -2,6 +2,7 @@
 
 import { Menu, X, ArrowUpRight } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 const links = [
@@ -18,9 +19,15 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-slate-200/70 bg-white/90 backdrop-blur-xl">
       <div className="container-page flex h-[72px] items-center justify-between">
         <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <span className="grid h-11 w-11 place-items-center rounded-2xl bg-[var(--navy)] text-lg font-black text-[var(--gold)] shadow-lg">
-            AA
-          </span>
+          <span className="relative grid h-11 w-11 place-items-center overflow-hidden">
+  <Image
+    src="/images/logo.png"
+    alt="आर्थिक आधार पर आरक्षण आंदोलन"
+    fill
+    className="object-contain"
+    sizes="44px"
+  />
+</span>
           <span className="hidden sm:block">
             <span className="block text-[11px] font-bold uppercase tracking-[.2em] text-[var(--red)]">
               AAA 2026
