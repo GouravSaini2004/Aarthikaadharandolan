@@ -288,7 +288,7 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="pb-20">
+      <section className="py-20">
         <div className="container-page">
           <div className="relative overflow-hidden rounded-[2rem] bg-[var(--red)] px-7 py-12 text-center text-white sm:px-12">
             
