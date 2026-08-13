@@ -35,6 +35,7 @@ export default function Footer() {
             <Link className="block hover:text-white" href="/praveen-arora">प्रवीण अरोड़ा</Link>
             <Link className="block hover:text-white" href="/support">सहयोग करें</Link>
             <Link className="block hover:text-white" href="/contact">संपर्क</Link>
+            <Link className="block hover:text-white" href="/gallery">आंदोलन की यात्रा</Link>
           </div>
         </div>
 
