@@ -10,6 +10,8 @@ const links = [
   { href: "/praveen-arora", label: "प्रवीण अरोड़ा" },
   { href: "/support", label: "सहयोग करें" },
   { href: "/contact", label: "संपर्क" },
+  { href: "/gallery" , label: "आंदोलन की यात्रा"}
+ 
 ];
 
 export default function Navbar() {
