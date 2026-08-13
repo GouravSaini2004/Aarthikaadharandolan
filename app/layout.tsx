@@ -10,7 +10,9 @@ export const metadata: Metadata = {
   },
   description:
     "समान अवसर, सामाजिक न्याय और आर्थिक न्याय से जुड़े सार्वजनिक संवाद का मंच।",
-  metadataBase: new URL("https://example.com"),
+  icons: {
+    icon: "/images/logo.png",
+  },
 };
 
 export default function RootLayout({
