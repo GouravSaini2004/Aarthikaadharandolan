@@ -28,7 +28,7 @@ export default function Navbar() {
     sizes="44px"
   />
 </span>
-          <span className="hidden sm:block">
+          <span className="">
             <span className="block text-[11px] font-bold uppercase tracking-[.2em] text-[var(--red)]">
               AAA 2026
             </span>
