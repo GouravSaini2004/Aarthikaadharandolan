@@ -19,6 +19,16 @@ const journeyImages = [
   "/images/gallery-8.jpg",
   "/images/gallery-9.jpg",
   "/images/gallery-10.jpg",
+  "/images/gallery-11.jpg",
+  "/images/gallery-12.jpg",
+  "/images/gallery-13.jpg",
+  "/images/gallery-14.jpg",
+  "/images/gallery-15.jpg",
+  "/images/gallery-16.jpg",
+  "/images/gallery-17.jpg",
+  "/images/gallery-18.jpg",
+  "/images/gallery-19.jpg",
+  "/images/gallery-20.jpg",
 ];
 
 export const metadata = {
