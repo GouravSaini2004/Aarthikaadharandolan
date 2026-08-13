@@ -10,7 +10,7 @@ import {
   Users,
   Youtube,
   Instagram,
-} from "lucide-react";
+  Facebook } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 
 const issues = [
@@ -311,6 +311,14 @@ export default function Home() {
               className="inline-flex items-center gap-2 rounded-full border border-slate-300 px-6 py-3 font-bold text-[var(--navy)]"
             >
               <Youtube size={18} /> YouTube
+            </a>
+            <a
+              href="https://www.facebook.com/share/1EewEfQmt4/"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-slate-300 px-6 py-3 font-bold text-[var(--navy)]"
+            >
+              <Facebook size={18} /> Facebook 
             </a>
           </div>
         </div>
