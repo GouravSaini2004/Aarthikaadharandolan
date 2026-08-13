@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Instagram, Youtube, Phone, Mail } from "lucide-react";
+import Image from "next/image";
+import { Instagram, Youtube, Facebook ,Phone, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -7,9 +8,15 @@ export default function Footer() {
       <div className="container-page grid gap-10 py-14 md:grid-cols-[1.4fr_.8fr_.9fr]">
         <div>
           <div className="mb-4 flex items-center gap-3">
-            <span className="grid h-11 w-11 place-items-center rounded-2xl bg-white text-lg font-black text-[var(--red)]">
-              AA
-            </span>
+            <span className="relative grid h-11 w-11 place-items-center overflow-hidden">
+  <Image
+    src="/images/logo.png"
+    alt="आर्थिक आधार पर आरक्षण आंदोलन"
+    fill
+    className="object-contain"
+    sizes="44px"
+  />
+</span>
             <div>
               <div className="font-black">आर्थिक आधार पर आरक्षण</div>
               <div className="text-xs text-white/55">आंदोलन 2026</div>
@@ -54,6 +61,15 @@ export default function Footer() {
                 className="grid h-10 w-10 place-items-center rounded-xl bg-white/10 hover:bg-white/20"
               >
                 <Youtube size={18} />
+              </a>
+              <a
+                href="https://www.facebook.com/share/1EewEfQmt4/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="YouTube"
+                className="grid h-10 w-10 place-items-center rounded-xl bg-white/10 hover:bg-white/20"
+              >
+                <Facebook size={18} />
               </a>
             </div>
           </div>
