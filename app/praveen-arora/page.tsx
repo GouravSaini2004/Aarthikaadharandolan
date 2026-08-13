@@ -19,7 +19,7 @@ export default function PraveenAroraPage() {
     </div></section>
 
     <section className="section-pad bg-white"><div className="container-page grid items-start gap-12 lg:grid-cols-[.72fr_1.28fr]">
-      <div className="lg:sticky lg:top-28"><div className="relative mx-auto max-w-[430px] overflow-hidden rounded-[2rem] bg-slate-100 shadow-premium"><div className="relative aspect-[4/5]"><Image src="/images/praveen.jpg" alt="प्रवीण अरोड़ा" fill className="object-cover" sizes="(max-width: 1024px) 90vw, 430px"/></div></div><div className="mt-5 grid grid-cols-2 gap-3">
+      <div className="lg:sticky lg:top-28"><div className="relative mx-auto max-w-[430px] overflow-hidden rounded-[2rem] bg-slate-100 shadow-premium"><div className="relative aspect-[4/5]"><Image src="/images/Praveen.jpg" alt="प्रवीण अरोड़ा" fill className="object-cover" sizes="(max-width: 1024px) 90vw, 430px"/></div></div><div className="mt-5 grid grid-cols-2 gap-3">
         <div className="rounded-2xl border border-slate-200 p-4"><div className="text-xs font-bold text-slate-400">जन्म स्थान</div><div className="mt-1 font-black text-[var(--navy)]">कैराना, उत्तर प्रदेश</div></div>
         <div className="rounded-2xl border border-slate-200 p-4"><div className="text-xs font-bold text-slate-400">निवास</div><div className="mt-1 font-black text-[var(--navy)]">शालीमार बाग, दिल्ली</div></div>
       </div></div>
