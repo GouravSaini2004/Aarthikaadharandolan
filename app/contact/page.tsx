@@ -80,7 +80,7 @@ export default function ContactPage() {
               <div className="flex gap-3">
                 <a href="https://www.instagram.com/aarthikaadharparaarakshan2026/" target="_blank" rel="noreferrer" className="grid h-11 w-11 place-items-center rounded-xl bg-white/10 hover:bg-white/20"><Instagram size={19} /></a>
                 <a href="https://youtube.com/channel/UC1LoLGLIoNB_RAIbHMgcrbg" target="_blank" rel="noreferrer" className="grid h-11 w-11 place-items-center rounded-xl bg-white/10 hover:bg-white/20"><Youtube size={19} /></a>
-                <a href="https:https://www.facebook.com/people/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%BF%E0%A4%95-%E0%A4%86%E0%A4%A7%E0%A4%BE%E0%A4%B0-%E0%A4%86%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3-%E0%A4%86%E0%A4%82%E0%A4%A6%E0%A5%8B%E0%A4%B2%E0%A4%A8/61592922819205/?rdid=zkgbtbtonSUJGHkQ&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1EewEfQmt4%2F" target="_blank" rel="noreferrer" className="grid h-11 w-11 place-items-center rounded-xl bg-white/10 hover:bg-white/20"><Facebook size={19} /></a>
+                <a href="https://www.facebook.com/people/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%BF%E0%A4%95-%E0%A4%86%E0%A4%A7%E0%A4%BE%E0%A4%B0-%E0%A4%86%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3-%E0%A4%86%E0%A4%82%E0%A4%A6%E0%A5%8B%E0%A4%B2%E0%A4%A8/61592922819205/?rdid=zkgbtbtonSUJGHkQ&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1EewEfQmt4%2F" target="_blank" rel="noreferrer" className="grid h-11 w-11 place-items-center rounded-xl bg-white/10 hover:bg-white/20"><Facebook size={19} /></a>
               </div>
             </div>
           </aside>
