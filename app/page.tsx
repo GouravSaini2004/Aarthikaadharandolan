@@ -225,7 +225,7 @@ export default function Home() {
             </div>
 
             <Link
-              href="/praveen-arora"
+              href="/Praveen-arora"
               className="mt-8 inline-flex items-center gap-2 font-black text-[var(--red)] hover:gap-3"
             >
               पूरा परिचय देखें <ChevronRight size={18} />
