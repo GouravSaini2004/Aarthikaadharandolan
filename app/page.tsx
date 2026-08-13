@@ -37,10 +37,14 @@ const issues = [
 ];
 
 const posters = [
-  "/images/poster-1.jpg",
-  "/images/poster-2.jpg",
-  "/images/poster-3.jpg",
-  "/images/poster-4.jpg",
+  "/images/Poster-1.jpg",
+  "/images/Poster-2.jpg",
+  "/images/Poster-3.jpg",
+  "/images/Poster-5.jpg",
+  "/images/Poster-6.jpg",
+  "/images/Poster-7.jpg",
+  "/images/Poster-8.jpg",
+  "/images/Poster-9.jpg",
 ];
 
 export default function Home() {
