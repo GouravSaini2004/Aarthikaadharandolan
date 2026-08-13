@@ -195,7 +195,7 @@ export default function Home() {
             <div className="absolute -bottom-5 -left-5 h-32 w-32 rounded-full bg-[var(--gold)]/30 blur-2xl" />
             <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] bg-slate-100 shadow-premium">
               <Image
-                src="/images/praveen.jpg"
+                src="/images/Praveen.jpg"
                 alt="प्रवीण अरोड़ा"
                 fill
                 className="object-cover"
@@ -225,7 +225,7 @@ export default function Home() {
             </div>
 
             <Link
-              href="/Praveen-arora"
+              href="/praveen-arora"
               className="mt-8 inline-flex items-center gap-2 font-black text-[var(--red)] hover:gap-3"
             >
               पूरा परिचय देखें <ChevronRight size={18} />
