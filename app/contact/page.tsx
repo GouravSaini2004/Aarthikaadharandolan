@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft, Instagram, Mail, Phone, Youtube } from "lucide-react";
+import { ArrowLeft, Instagram, Mail, Phone,Facebook, Youtube } from "lucide-react";
 
 export const metadata = {
   title: "संपर्क",
@@ -80,6 +80,7 @@ export default function ContactPage() {
               <div className="flex gap-3">
                 <a href="https://www.instagram.com/aarthikaadharparaarakshan2026/" target="_blank" rel="noreferrer" className="grid h-11 w-11 place-items-center rounded-xl bg-white/10 hover:bg-white/20"><Instagram size={19} /></a>
                 <a href="https://youtube.com/channel/UC1LoLGLIoNB_RAIbHMgcrbg" target="_blank" rel="noreferrer" className="grid h-11 w-11 place-items-center rounded-xl bg-white/10 hover:bg-white/20"><Youtube size={19} /></a>
+                <a href="https://https://www.facebook.com/share/1EewEfQmt4/" target="_blank" rel="noreferrer" className="grid h-11 w-11 place-items-center rounded-xl bg-white/10 hover:bg-white/20"><Facebook size={19} /></a>
               </div>
             </div>
           </aside>
