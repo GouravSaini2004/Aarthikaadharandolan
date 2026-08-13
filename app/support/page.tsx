@@ -32,11 +32,13 @@ export default function SupportPage() {
 
           <div className="mx-auto mt-9 w-fit rounded-[2rem] border border-slate-200 bg-slate-50 p-5">
             {/* Replace this image with the QR supplied by the client. */}
-            <div className="grid h-64 w-64 place-items-center rounded-2xl border-2 border-dashed border-slate-300 bg-white p-6 text-sm font-bold text-slate-400">
-              CLIENT PAYTM QR
-              <br />
-              यहाँ QR code रखें
-            </div>
+            <div className="flex h-64 w-64 items-center justify-center overflow-hidden rounded-2xl border-2 border-slate-200 bg-white p-3 shadow-sm">
+  <img
+    src="/images/Qrcode.jpg"
+    alt="Paytm QR Code"
+    className="h-full w-full object-contain"
+  />
+</div>
           </div>
 
           <p className="mx-auto mt-6 max-w-lg text-xs leading-6 text-slate-500">
