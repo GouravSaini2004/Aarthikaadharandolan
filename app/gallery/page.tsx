@@ -19,7 +19,6 @@ const journeyImages = [
   "/images/gallery-8.jpg",
   "/images/gallery-9.jpg",
   "/images/gallery-10.jpg",
-  "/images/gallery-11.jpg",
 ];
 
 export const metadata = {
