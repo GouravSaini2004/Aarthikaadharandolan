@@ -23,7 +23,7 @@ export default function ContactPage() {
 
             {/* Replace ACTION with the endpoint provided by your third-party form service. */}
             <form
-              action="https://formspree.io/f/YOUR_FORM_ID"
+              action="https://formspree.io/f/xoeaypbg"
               method="POST"
               className="mt-8 space-y-5"
             >
