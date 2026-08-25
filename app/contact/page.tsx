@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowLeft, Instagram, Mail, Phone, Facebook, Youtube } from "lucide-react";
-import ContactForm from "./ContactForm.jsx";
+import ContactForm from "./ContactForm";
 
 export const metadata = {
   title: "संपर्क",
